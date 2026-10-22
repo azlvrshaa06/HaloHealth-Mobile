@@ -1,4 +1,4 @@
-# HaloHealth
+# HaloHealth Mobile Application
 
 A Flutter mobile application for home health monitoring. HaloHealth is built around a physical telemedicine kit (blood pressure monitor, pulse oximeter, heart rate monitor, and thermometer). It stores each measurement in the cloud, shows the history and the live device status, and lets the patient send the latest readings to a doctor through an in-app chat. The app uses Firebase Authentication for accounts and Cloud Firestore for real-time data.
 
