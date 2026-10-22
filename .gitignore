@@ -1,0 +1,38 @@
+# Dart / Flutter
+.dart_tool/
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Platform
+**/Pods/
+local.properties
+key.properties
+*.jks
+*.keystore
+
+# Firebase dan rahasia (JANGAN di-commit)
+lib/firebase_options.dart
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+firebase.json
+.firebaserc
+.env
+
+# Cocok di subfolder code/
+**/lib/firebase_options.dart
+**/google-services.json
+**/GoogleService-Info.plist
+**/firebase.json
+**/.firebaserc
+*.pdf
+README.txt
